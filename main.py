@@ -9,11 +9,12 @@ students = {}
 
 student_data = {"id": 0, "Name": "", "age": 0, "sex": "", "height": 0.0}
 
+# Create a route
 @app.get("/")
 def home():
     return {"message": "Welcome to AltSchool Student Database"}
 
-#creating a student resource
+#create a student resource
 @app.post("/students") # A POST method used in creating a student resource
 def create_student(name: str, age: int, sex: str, height: float):
 
