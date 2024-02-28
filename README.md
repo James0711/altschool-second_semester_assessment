@@ -1,17 +1,18 @@
-Second Semester Assignment 1
+ALTSCHOOL SECOND SEMESTER ASSIGNMENT
 
-Creat a FastAPI with the following specifications
-A student resource. Each student will have:
-Id(int)
-Name(str)
-Age(int)
-Sex(str)
-Height(str)
+Creating a FastAPI project with the following specifications:
 
-For data storage, use an in-meaning storage(python dictionary)
+A Student resource. Each student will have:
+1. Id (int)
+2. Name(str)
+3. Age (int)
+4. Sex (str)
+5. Height (float)
 
-Create endpoint to do the following
-Create a student resource
-Retrieve a student resource(one student and many students)
-Update a student resource
-Delete a student resource 
+For data storage, use an in-memory storage (Python dictionary)
+
+1. Create endpoints to do the following:
+2. Create a Student resource
+3. Retrieve a Student resource (one Student and many Students)
+4. Update a Student resource
+5. Delete a Student resource
